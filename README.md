@@ -7,6 +7,7 @@ I am currently using Mosyle's Business instance, though these should work just a
 ## Scripts
 
 * Default Userspace Settings. Allows you to set default settings for the user where a profile might work, but you want to allow the user to later change the settings. Setting the Desktop Picture is an example.
+* DEP Default Userspace Settings. Same as the above but works via the DEP process with limitations. See the header in the script for more information.
 * ZoomIT Plist Installer. Zoom has an IT installer, and provides an example plist of the settings you can set. This script deploys your customized plist and versions the plist so older versions can be updated over time.
 
 ## Tips

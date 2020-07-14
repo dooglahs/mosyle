@@ -7,8 +7,6 @@
 # USE:
 # 1. Put all of the user space commands in the space _after_ the 'END'
 # 2. Create a Custom Command in Mosyle and use your edited script, assign to computers, and save.
-# I have this scoped to computers that go through the zero-touch DEP deployment, but not manual enrollment
-# so user's current preferences are not overwritten.
 
 sudo -u $(stat -f "%Su" /dev/console) /bin/sh <<'END'
 
