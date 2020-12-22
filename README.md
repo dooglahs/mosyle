@@ -17,3 +17,33 @@ None at this time except to join the MacAdmins Slack channel!
 ## Tricks
 
 None at this time, though I intend to describe how I use device groups with criteria eventually.
+
+## Mosyle Variables
+
+You can use the following specifically within custom commands.
+
+Variables available for all devices
+|  Item | Variable |
+| :--- | :--- |
+| Company Name | %CompanyName% |
+| Current device name | %DeviceName% |
+| Device UDID | %UUID% |
+| Serial Number | %SerialNumber% |
+| Asset Tag | %AssetTag% |
+| WiFi Mac Address | %WiFiMac% |
+| Product Name | %ProductName% |
+| OS version | %OSVersion% |
+| Sequencial number | %Number% 
+| Current year | %Year% |
+| Tags | %Tags% |
+
+Variables available only for 1:1 devices
+|  Item | Variable |
+| :--- | :--- |
+| Full Name | %FullName% |
+| First Name | %FirstName% |
+| Last Name | %LastName% |
+| Email | %Email% |
+| User ID | %UserId% |
+| Managed Apple ID | %ManagedAppleId% |
+| User Type | %UserType% |
