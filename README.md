@@ -10,6 +10,7 @@ I am currently using Mosyle's Business instance, though these should work just a
 * DEP Default Userspace Settings. Same as the above but works via the DEP process with limitations. See the header in the script for more information. Some improvements recommended by `adamcodega` on the MacAdmins Slack.
 * Run Python Scripts. Mosyle doens't have the ability to run Python scripts from it's commands, so this bash script will drop the Python onto the computer and run it.
 * Generic Plist Installer. This script allows you to deploy your own customized plist, and versions the plist so older versions can be updated over time.
+* Custom attribute: AppleID. We had the need for a custom attribute to get the email AppleID on a machine if present. We named the attribute AppleID and it returns either the email address or "none".
 
 ## Tips
 
