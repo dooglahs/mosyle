@@ -12,6 +12,7 @@ I am currently using Mosyle's Business instance, though these should work just a
 * Run Python Scripts. Mosyle doens't have the ability to run Python scripts from it's commands, so this bash script will drop the Python onto the computer and run it.
 * Generic Plist Installer. This script allows you to deploy your own customized plist, and versions the plist so older versions can be updated over time.
 * Custom attribute: AppleID. We had the need for a custom attribute to get the email AppleID on a machine if present. We named the attribute AppleID and it returns either the email address or "none".
+* Custom attribute: Homebrew. Determines if Homebrew is installed or not; returns YES if it needs an update else NO.
 
 ## Tips
 
