@@ -1,4 +1,8 @@
-# Custom attribute to find out if Homebrew is installed, and if so YES or NO if it needs to be updated (NO also indicates it is not installed)
+# Custom attribute to find out if Homebrew is installed or not, and needs an update
+# Returns a YES or a NO.
+#	NO indicates Homebrew is either not installed or is installed but doesn't need an update
+#	YES indicates Homebres is installed and also that it needs an update.
+# I created a smart device group that lists all of the YES returns
 
 # Run the script as the end user
 sudo -u $(stat -f "%Su" /dev/console) /bin/sh <<'END'
