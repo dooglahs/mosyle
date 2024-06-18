@@ -26,7 +26,7 @@ None at this time, though I intend to describe how I use device groups with crit
 
 You can use the following specifically within custom commands.
 
-Variables available for all devices
+**Variables available for all devices**
 |  Item | Variable |
 | :--- | :--- |
 | Company Name | %CompanyName% |
@@ -39,15 +39,26 @@ Variables available for all devices
 | OS version | %OSVersion% |
 | Sequencial number | %Number% 
 | Current year | %Year% |
+| Last Console User | %LastConsoleUser% |
+| Mosyle CDN File | (clickable link in your portal) |
+| Dep Password | %dep_password% |
 | Tags | %Tags% |
 
-Variables available only for 1:1 devices
+**Variables available only for 1:1 devices**
 |  Item | Variable |
 | :--- | :--- |
 | Full Name | %FullName% |
 | First Name | %FirstName% |
 | Last Name | %LastName% |
 | Email | %Email% |
+| Email Prefix | %EmailPrefix% |
 | User ID | %UserId% |
 | Managed Apple ID | %ManagedAppleId% |
+| Managed Apple ID Prefix | %ManagedAppleIdPrefix% |
 | User Type | %UserType% |
+
+**Variables from Custom Device Attributes**
+Mosyle will also now present variables you can use from custom attributes. The following is from an attribute generated from [this script](https://github.com/dooglahs/mosyle/blob/master/mosyle-custom-attribute-homebrew-update.sh)
+|  Item | Variable |
+| :--- | :--- |
+| Homebrew Update Needed? | %custom_cc_brewUpdateNeeded% |
